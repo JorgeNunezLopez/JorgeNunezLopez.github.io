@@ -5,6 +5,7 @@
     margin:0;
     padding: 0;
     color: rgba(0, 0, 0, 0.737);
+    min-width: 300px;
     
 }
 
@@ -76,19 +77,20 @@ main{
  }
 
 footer{
-    position: relative;
+    position: static;
     text-align: center;
     border: 3px;
-    border-color: aliceblue;
-    width: 400px;
-    height: 80px;
+    /* border-color: aliceblue; */
+    /* width: 400px;
+    height: 80px; */
     background: radial-gradient(rgba(82, 82, 82, 0.5), rgba(9, 0, 0, 0.818), );
 
 }
 .boton{
     position: relative;
     text-align: center;
-    padding: 80px;
+    padding: 5px;
+    /* padding: 80px; */
     margin-top: -60px;
 }
 
@@ -173,4 +175,10 @@ footer{
         transform: translate(2420vh) scale(1) translateZ(2);
     }
     
+}
+button{
+    width: 140px;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.207);
 }
