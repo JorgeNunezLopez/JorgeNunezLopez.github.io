@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.737);
+    
+}
+
+body {
+    width: auto;
+    height: auto;
+    max-width: none;
+    min-width: 440px;
+    /* background: linear-gradient(to right top,rgba(0,0,0,90%), rgba(0,0,0,100%)); */
+    background-color: rgba(255, 161, 75, 6%);
+    z-index: 1;
+    
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    z-index: 3;
+}
+
+h2{
+    text-align: center;
+    position: relative;
+    margin-top: 10rem;
+    color:rgba(21, 2, 2, 0.5);
+    z-index: 2;
+}
+h3, ul, li{
+    font-family: 'Staatliches', cursive;
+
+    color:black;
+    z-index: 2;
+    text-align: center;
+}
+h4{
+    padding: 10px;
+}
+
+header{
+
+    width: 80%;
+    height: 40%;
+    /* background-color: black; */
+    padding:10%;
+    /* color: black; */
+    font-family:"Press Start 2p";
+    /* border: 10px solid rgba(255, 255, 255, 20%); */
+    z-index: 1;
+
+    /* background: url("Media/TFG/Figuras/1-Circulo.png") 4em no-repeat ; */
+}
+
+main{
+    
+    display: flex;
+    /* border: 10px solid rgba(255, 255, 255, 20%); */
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 50px;
+    z-index: 1;
+    position: relative;
+    z-index: 2;
+}
+.subtitle{
+    padding-top: 20px;
+    border: 10px;
+    z-index: 1;
+ }
+
+footer{
+    position: relative;
+    text-align: center;
+    border: 3px;
+    border-color: aliceblue;
+    width: 400px;
+    height: 80px;
+    background: radial-gradient(rgba(82, 82, 82, 0.5), rgba(9, 0, 0, 0.818), );
+
+}
+.boton{
+    position: relative;
+    text-align: center;
+    padding: 80px;
+    margin-top: -60px;
+}
+
+
+/* .uno{
+    width: 20%;
+    display: inline-block;
+    padding: 0%, 5%;
+}
+.dos{
+    width: 20%;
+    display: inline-block;
+    padding: 0%, 5%;
+}
+.tres{
+    width: 20%;
+    display: inline-block;
+    padding: 0%, 5%;
+} */
+/* .background{
+ filter: blur(15px);
+ z-index: 0;
+ position: relative;
+ width: auto;
+ padding: -400px;
+ background-position: left;
+} */
+
+/* CIRCULOS */
+.one{
+    position: fixed;
+    top: 40%;
+    right:-10%;
+    width: 30%;
+    z-index: 0;
+    filter: brightness(90%) blur(7px);
+    animation: animate1 2s ;
+}
+
+.two{
+    position: fixed;
+    top: -10%;
+    left: -10%;
+    width: 30%;
+    z-index: 0;
+    filter: brightness(90%) blur(7px);
+    animation: animate2 4s alternate ;
+}
+
+
+
+
+/* animaciones */
+
+
+@keyframes animate1 {
+    0%{
+        transform: translate(80vh) scale(1) ;
+    }
+    15%{
+        transform: translate(200vh) scale(1) translateY(2);
+    }
+    50%{
+        transform: translate(200vh) scale(1) translateY(2);
+    }
+    100%{
+        transform: translate(200vh) scale(1) translateY(2);
+    }
+    
+}
+@keyframes animate2 {
+    0%{
+        transform: translate(-20vh) scale(1);
+    }
+    25%{
+        transform: translate(-10vh) scale(1) translateZ(2);
+    }
+    50%{
+        transform: translate(400vh) scale(1) translateZ(2);
+    }
+    100%{
+        transform: translate(2420vh) scale(1) translateZ(2);
+    }
+    
+}
