@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*{
+
+
+}
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+   
+}
+
+.frame{
+    display: inline-block;
+    margin:2vw auto;
+    width: 80%;
+    max-width: 1500px;
+    border: 10px;
+    border-style: solid;
+    border-color: black;
+  
+}
+button{
+    border-radius: 10px;
+    min-width: 10vh;
+    margin: 10px 20px 0 20px;
+
+}
+
+.contact{
+}
+h1{
+    font-size: 4.5vw;
+    font-family: 'Press Start 2P', cursive;
+}
+h2{
+    font-size: 3vw;
+    font-family: 'Staatliches', cursive;
+}
+h3, h4, h5{
+    font-family: 'Staatliches', cursive;
+    font-size: 2vw;
+}
